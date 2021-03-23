@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="8.6.3">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;h1&gt;32-Channel Serial to Parallel Converter
+With Open Drain Outputs&lt;/h1&gt;
+
+&lt;p&gt;
+The HV5530 is a low-voltage serial to high-voltage parallel
+converter with open drain outputs. This device has been designed
+for use as a driver for AC-electroluminescent displays. It can also
+be used in any application requiring multiple output high voltage
+current sinking capabilities such as driving inkjet and electrostatic
+print heads, plasma panels, vacuum fluorescent, or large matrix
+LCD displays.
+&lt;/p&gt;</description>
+<packages>
+<package name="44_PQFP_CORRECTED">
+<wire x1="-5" y1="4.4" x2="-5" y2="-4.4" width="0.127" layer="51"/>
+<wire x1="-4.4" y1="-5" x2="4.4" y2="-5" width="0.127" layer="51"/>
+<wire x1="5" y1="-4.4" x2="5" y2="4.4" width="0.127" layer="51"/>
+<rectangle x1="-6.95" y1="-0.2" x2="-5" y2="0.2" layer="51"/>
+<rectangle x1="5" y1="0.6" x2="6.95" y2="1" layer="51"/>
+<rectangle x1="5" y1="1.4" x2="6.95" y2="1.8" layer="51"/>
+<rectangle x1="5" y1="2.2" x2="6.95" y2="2.6" layer="51"/>
+<rectangle x1="5" y1="3" x2="6.95" y2="3.4" layer="51"/>
+<rectangle x1="5" y1="3.8" x2="6.95" y2="4.2" layer="51"/>
+<rectangle x1="5" y1="-1" x2="6.95" y2="-0.6" layer="51"/>
+<rectangle x1="5" y1="-1.8" x2="6.95" y2="-1.4" layer="51"/>
+<rectangle x1="5" y1="-2.6" x2="6.95" y2="-2.2" layer="51"/>
+<rectangle x1="5" y1="-3.4" x2="6.95" y2="-3" layer="51"/>
+<rectangle x1="5" y1="-4.2" x2="6.95" y2="-3.8" layer="51"/>
+<rectangle x1="5" y1="-0.2" x2="6.95" y2="0.2" layer="51"/>
+<rectangle x1="-6.95" y1="0.6" x2="-5" y2="1" layer="51"/>
+<rectangle x1="-6.95" y1="1.4" x2="-5" y2="1.8" layer="51"/>
+<rectangle x1="-6.95" y1="2.2" x2="-5" y2="2.6" layer="51"/>
+<rectangle x1="-6.95" y1="3" x2="-5" y2="3.4" layer="51"/>
+<rectangle x1="-6.95" y1="3.8" x2="-5" y2="4.2" layer="51"/>
+<rectangle x1="-6.95" y1="-1" x2="-5" y2="-0.6" layer="51"/>
+<rectangle x1="-6.95" y1="-1.8" x2="-5" y2="-1.4" layer="51"/>
+<rectangle x1="-6.95" y1="-2.6" x2="-5" y2="-2.2" layer="51"/>
+<rectangle x1="-6.95" y1="-3.4" x2="-5" y2="-3" layer="51"/>
+<rectangle x1="-6.95" y1="-4.2" x2="-5" y2="-3.8" layer="51"/>
+<rectangle x1="-0.2" y1="-6.95" x2="0.2" y2="-5" layer="51"/>
+<rectangle x1="-1" y1="5" x2="-0.6" y2="6.95" layer="51"/>
+<rectangle x1="-1.8" y1="5" x2="-1.4" y2="6.95" layer="51"/>
+<rectangle x1="-2.6" y1="5" x2="-2.2" y2="6.95" layer="51"/>
+<rectangle x1="-3.4" y1="5" x2="-3" y2="6.95" layer="51"/>
+<rectangle x1="-4.2" y1="5" x2="-3.8" y2="6.95" layer="51"/>
+<rectangle x1="0.6" y1="5" x2="1" y2="6.95" layer="51"/>
+<rectangle x1="1.4" y1="5" x2="1.8" y2="6.95" layer="51"/>
+<rectangle x1="2.2" y1="5" x2="2.6" y2="6.95" layer="51"/>
+<rectangle x1="3" y1="5" x2="3.4" y2="6.95" layer="51"/>
+<rectangle x1="3.8" y1="5" x2="4.2" y2="6.95" layer="51"/>
+<rectangle x1="-0.2" y1="5" x2="0.2" y2="6.95" layer="51"/>
+<rectangle x1="0.6" y1="-6.95" x2="1" y2="-5" layer="51"/>
+<rectangle x1="1.4" y1="-6.95" x2="1.8" y2="-5" layer="51"/>
+<rectangle x1="2.2" y1="-6.95" x2="2.6" y2="-5" layer="51"/>
+<rectangle x1="3" y1="-6.95" x2="3.4" y2="-5" layer="51"/>
+<rectangle x1="3.8" y1="-6.95" x2="4.2" y2="-5" layer="51"/>
+<rectangle x1="-1" y1="-6.95" x2="-0.6" y2="-5" layer="51"/>
+<rectangle x1="-1.8" y1="-6.95" x2="-1.4" y2="-5" layer="51"/>
+<rectangle x1="-2.6" y1="-6.95" x2="-2.2" y2="-5" layer="51"/>
+<rectangle x1="-3.4" y1="-6.95" x2="-3" y2="-5" layer="51"/>
+<rectangle x1="-4.2" y1="-6.95" x2="-3.8" y2="-5" layer="51"/>
+<wire x1="4.4" y1="5" x2="-4.4" y2="5" width="0.127" layer="51"/>
+<wire x1="-5" y1="4.4" x2="-4.4" y2="5" width="0.127" layer="51"/>
+<wire x1="4.4" y1="5" x2="5" y2="4.4" width="0.127" layer="51"/>
+<wire x1="-5" y1="-4.4" x2="-4.4" y2="-5" width="0.127" layer="51"/>
+<wire x1="4.4" y1="-5" x2="5" y2="-4.4" width="0.127" layer="51"/>
+<smd name="HV26" x="6.8" y="-0.8" dx="2" dy="0.55" layer="1"/>
+<smd name="HV27" x="6.8" y="0" dx="2" dy="0.55" layer="1"/>
+<smd name="HV28" x="6.8" y="0.8" dx="2" dy="0.55" layer="1"/>
+<smd name="HV29" x="6.8" y="1.6" dx="2" dy="0.55" layer="1"/>
+<smd name="HV30" x="6.8" y="2.4" dx="2" dy="0.55" layer="1"/>
+<smd name="HV31" x="6.8" y="3.2" dx="2" dy="0.55" layer="1"/>
+<smd name="HV32" x="6.8" y="4" dx="2" dy="0.55" layer="1"/>
+<smd name="HV25" x="6.8" y="-1.6" dx="2" dy="0.55" layer="1"/>
+<smd name="HV24" x="6.8" y="-2.4" dx="2" dy="0.55" layer="1"/>
+<smd name="HV23" x="6.8" y="-3.2" dx="2" dy="0.55" layer="1"/>
+<smd name="HV22" x="6.8" y="-4" dx="2" dy="0.55" layer="1"/>
+<smd name="HV5" x="-6.8" y="0" dx="2" dy="0.55" layer="1"/>
+<smd name="CLK" x="0" y="6.8" dx="0.55" dy="2" layer="1"/>
+<smd name="HV4" x="-6.8" y="0.8" dx="2" dy="0.55" layer="1"/>
+<smd name="HV3" x="-6.8" y="1.6" dx="2" dy="0.55" layer="1"/>
+<smd name="HV2" x="-6.8" y="2.4" dx="2" dy="0.55" layer="1"/>
+<smd name="HV1" x="-6.8" y="3.2" dx="2" dy="0.55" layer="1"/>
+<smd name="NC@4" x="-6.8" y="4" dx="2" dy="0.55" layer="1"/>
+<smd name="HV6" x="-6.8" y="-0.8" dx="2" dy="0.55" layer="1"/>
+<smd name="HV7" x="-6.8" y="-1.6" dx="2" dy="0.55" layer="1"/>
+<smd name="HV8" x="-6.8" y="-2.4" dx="2" dy="0.55" layer="1"/>
+<smd name="HV9" x="-6.8" y="-3.2" dx="2" dy="0.55" layer="1"/>
+<smd name="HV10" x="-6.8" y="-4" dx="2" dy="0.55" layer="1"/>
+<smd name="VSS" x="-0.8" y="6.8" dx="0.55" dy="2" layer="1"/>
+<smd name="VDD" x="-1.6" y="6.8" dx="0.55" dy="2" layer="1"/>
+<smd name="LE" x="-2.4" y="6.8" dx="0.55" dy="2" layer="1"/>
+<smd name="DIN" x="-3.2" y="6.8" dx="0.55" dy="2" layer="1"/>
+<smd name="BL" x="-4" y="6.8" dx="0.55" dy="2" layer="1"/>
+<smd name="POL" x="0.8" y="6.8" dx="0.55" dy="2" layer="1"/>
+<smd name="NC@3" x="1.6" y="6.8" dx="0.55" dy="2" layer="1"/>
+<smd name="NC@2" x="2.4" y="6.8" dx="0.55" dy="2" layer="1"/>
+<smd name="NC@1" x="3.2" y="6.8" dx="0.55" dy="2" layer="1"/>
+<smd name="DOUT" x="4" y="6.8" dx="0.55" dy="2" layer="1"/>
+<smd name="HV11" x="-4" y="-6.8" dx="0.55" dy="2" layer="1"/>
+<smd name="HV12" x="-3.2" y="-6.8" dx="0.55" dy="2" layer="1"/>
+<smd name="HV13" x="-2.4" y="-6.8" dx="0.55" dy="2" layer="1"/>
+<smd name="HV14" x="-1.6" y="-6.8" dx="0.55" dy="2" layer="1"/>
+<smd name="HV15" x="-0.8" y="-6.8" dx="0.55" dy="2" layer="1"/>
+<smd name="HV21" x="4" y="-6.8" dx="0.55" dy="2" layer="1"/>
+<smd name="HV20" x="3.2" y="-6.8" dx="0.55" dy="2" layer="1"/>
+<smd name="HV19" x="2.4" y="-6.8" dx="0.55" dy="2" layer="1"/>
+<smd name="HV18" x="1.6" y="-6.8" dx="0.55" dy="2" layer="1"/>
+<smd name="HV17" x="0.8" y="-6.8" dx="0.55" dy="2" layer="1"/>
+<smd name="HV16" x="0" y="-6.8" dx="0.55" dy="2" layer="1"/>
+<circle x="-4" y="-4" radius="0.2" width="0.5" layer="21"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="5.1" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="5.1" x2="5.1" y2="5.1" width="0.127" layer="21"/>
+<wire x1="5.1" y1="5.1" x2="5.1" y2="-5.1" width="0.127" layer="21"/>
+<wire x1="5.1" y1="-5.1" x2="-5.1" y2="-5.1" width="0.127" layer="21"/>
+<text x="0" y="8.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8.5" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="HV5530">
+<wire x1="15.24" y1="45.72" x2="15.24" y2="-48.26" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-48.26" x2="-15.24" y2="-48.26" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-48.26" x2="-15.24" y2="45.72" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="45.72" x2="15.24" y2="45.72" width="0.254" layer="94"/>
+<text x="-12.7" y="48.26" size="1.778" layer="94">&gt;NAME</text>
+<text x="-12.7" y="-53.34" size="1.778" layer="94">&gt;VALUE</text>
+<pin name="HV1" x="17.78" y="38.1" length="middle" direction="out" rot="R180"/>
+<pin name="HV2" x="17.78" y="35.56" length="middle" direction="out" rot="R180"/>
+<pin name="HV3" x="17.78" y="33.02" length="middle" direction="out" rot="R180"/>
+<pin name="HV4" x="17.78" y="30.48" length="middle" direction="out" rot="R180"/>
+<pin name="HV5" x="17.78" y="27.94" length="middle" direction="out" rot="R180"/>
+<pin name="HV6" x="17.78" y="25.4" length="middle" direction="out" rot="R180"/>
+<pin name="HV7" x="17.78" y="22.86" length="middle" direction="out" rot="R180"/>
+<pin name="HV8" x="17.78" y="20.32" length="middle" direction="out" rot="R180"/>
+<pin name="HV9" x="17.78" y="17.78" length="middle" direction="out" rot="R180"/>
+<pin name="HV10" x="17.78" y="15.24" length="middle" direction="out" rot="R180"/>
+<pin name="HV11" x="17.78" y="10.16" length="middle" direction="out" rot="R180"/>
+<pin name="HV12" x="17.78" y="7.62" length="middle" direction="out" rot="R180"/>
+<pin name="HV13" x="17.78" y="5.08" length="middle" direction="out" rot="R180"/>
+<pin name="HV14" x="17.78" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="HV15" x="17.78" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="HV16" x="17.78" y="-2.54" length="middle" direction="out" rot="R180"/>
+<pin name="HV17" x="17.78" y="-5.08" length="middle" direction="out" rot="R180"/>
+<pin name="HV18" x="17.78" y="-7.62" length="middle" direction="out" rot="R180"/>
+<pin name="HV19" x="17.78" y="-10.16" length="middle" direction="out" rot="R180"/>
+<pin name="HV20" x="17.78" y="-12.7" length="middle" direction="out" rot="R180"/>
+<pin name="HV21" x="17.78" y="-17.78" length="middle" direction="out" rot="R180"/>
+<pin name="HV23" x="17.78" y="-22.86" length="middle" direction="out" rot="R180"/>
+<pin name="HV24" x="17.78" y="-25.4" length="middle" direction="out" rot="R180"/>
+<pin name="HV25" x="17.78" y="-27.94" length="middle" direction="out" rot="R180"/>
+<pin name="HV26" x="17.78" y="-30.48" length="middle" direction="out" rot="R180"/>
+<pin name="HV27" x="17.78" y="-33.02" length="middle" direction="out" rot="R180"/>
+<pin name="HV28" x="17.78" y="-35.56" length="middle" direction="out" rot="R180"/>
+<pin name="HV29" x="17.78" y="-38.1" length="middle" direction="out" rot="R180"/>
+<pin name="HV30" x="17.78" y="-40.64" length="middle" direction="out" rot="R180"/>
+<pin name="HV31" x="17.78" y="43.18" length="middle" direction="out" rot="R180"/>
+<pin name="HV32" x="17.78" y="-45.72" length="middle" direction="out" rot="R180"/>
+<pin name="VDD" x="-17.78" y="40.64" length="middle" direction="pwr"/>
+<pin name="D_OUT" x="-17.78" y="-35.56" length="middle" direction="out"/>
+<pin name="POL" x="-17.78" y="22.86" length="middle" direction="in" function="dot"/>
+<pin name="BL" x="-17.78" y="17.78" length="middle" direction="in" function="dot"/>
+<pin name="LE" x="-17.78" y="12.7" length="middle" direction="in" function="dot"/>
+<pin name="CLK" x="-17.78" y="7.62" length="middle" function="clk"/>
+<pin name="VSS" x="-17.78" y="-40.64" length="middle" direction="pwr"/>
+<pin name="D_IN" x="-17.78" y="35.56" length="middle" direction="in"/>
+<pin name="NC@1" x="-17.78" y="-12.7" length="middle" direction="nc"/>
+<pin name="NC@2" x="-17.78" y="-15.24" length="middle" direction="nc"/>
+<pin name="NC@3" x="-17.78" y="-17.78" length="middle" direction="nc"/>
+<pin name="NC@4" x="-17.78" y="-20.32" length="middle" direction="nc"/>
+<pin name="HV22" x="17.78" y="-20.32" length="middle" direction="out" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="HV5530">
+<gates>
+<gate name="G$1" symbol="HV5530" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="44_PQFP_CORRECTED">
+<connects>
+<connect gate="G$1" pin="BL" pad="BL"/>
+<connect gate="G$1" pin="CLK" pad="CLK"/>
+<connect gate="G$1" pin="D_IN" pad="DIN"/>
+<connect gate="G$1" pin="D_OUT" pad="DOUT"/>
+<connect gate="G$1" pin="HV1" pad="HV1"/>
+<connect gate="G$1" pin="HV10" pad="HV10"/>
+<connect gate="G$1" pin="HV11" pad="HV11"/>
+<connect gate="G$1" pin="HV12" pad="HV12"/>
+<connect gate="G$1" pin="HV13" pad="HV13"/>
+<connect gate="G$1" pin="HV14" pad="HV14"/>
+<connect gate="G$1" pin="HV15" pad="HV15"/>
+<connect gate="G$1" pin="HV16" pad="HV16"/>
+<connect gate="G$1" pin="HV17" pad="HV17"/>
+<connect gate="G$1" pin="HV18" pad="HV18"/>
+<connect gate="G$1" pin="HV19" pad="HV19"/>
+<connect gate="G$1" pin="HV2" pad="HV2"/>
+<connect gate="G$1" pin="HV20" pad="HV20"/>
+<connect gate="G$1" pin="HV21" pad="HV21"/>
+<connect gate="G$1" pin="HV22" pad="HV22"/>
+<connect gate="G$1" pin="HV23" pad="HV23"/>
+<connect gate="G$1" pin="HV24" pad="HV24"/>
+<connect gate="G$1" pin="HV25" pad="HV25"/>
+<connect gate="G$1" pin="HV26" pad="HV26"/>
+<connect gate="G$1" pin="HV27" pad="HV27"/>
+<connect gate="G$1" pin="HV28" pad="HV28"/>
+<connect gate="G$1" pin="HV29" pad="HV29"/>
+<connect gate="G$1" pin="HV3" pad="HV3"/>
+<connect gate="G$1" pin="HV30" pad="HV30"/>
+<connect gate="G$1" pin="HV31" pad="HV31"/>
+<connect gate="G$1" pin="HV32" pad="HV32"/>
+<connect gate="G$1" pin="HV4" pad="HV4"/>
+<connect gate="G$1" pin="HV5" pad="HV5"/>
+<connect gate="G$1" pin="HV6" pad="HV6"/>
+<connect gate="G$1" pin="HV7" pad="HV7"/>
+<connect gate="G$1" pin="HV8" pad="HV8"/>
+<connect gate="G$1" pin="HV9" pad="HV9"/>
+<connect gate="G$1" pin="LE" pad="LE"/>
+<connect gate="G$1" pin="NC@1" pad="NC@1"/>
+<connect gate="G$1" pin="NC@2" pad="NC@2"/>
+<connect gate="G$1" pin="NC@3" pad="NC@3"/>
+<connect gate="G$1" pin="NC@4" pad="NC@4"/>
+<connect gate="G$1" pin="POL" pad="POL"/>
+<connect gate="G$1" pin="VDD" pad="VDD"/>
+<connect gate="G$1" pin="VSS" pad="VSS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
