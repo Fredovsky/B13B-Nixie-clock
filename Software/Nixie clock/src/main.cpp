@@ -1,5 +1,5 @@
 #include "Arduino.h"
-#include "RTClib.h"
+#include "RTClib.h" //v1.12.4
 #include "SPI.h"  // HV5530 interfacing
 
 #define brightnessSensorPin A2
