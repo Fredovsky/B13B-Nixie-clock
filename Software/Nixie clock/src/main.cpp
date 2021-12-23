@@ -177,8 +177,9 @@ void autoBrightness() {
     }
 }
 
-void cathodePoisoningPrevention() {
-    // Cycles through all digits to clean less used cathodes
+void shortCathodePoisoningPrevention() {
+    // Cycles through all digits to clean less used cathodes (duration 15s)
+    // Short version is mainly for cool factor, real cleaning in long routine
     for(uint8_t i=0; i<10; i++) {
         // Run 10 times the following
         for(uint8_t j=5; j<15; j++){
@@ -188,6 +189,23 @@ void cathodePoisoningPrevention() {
             d4=(19-j)%10;   // 4 - 3 ... 5
             updateDisplay();
             delay(100);
+        }
+    }
+
+}
+
+void longCathodePoisoningPrevention() {
+    // Cycles through all digits to clean less used cathodes
+    // Done once a day, lasts 30min
+    for(uint8_t i=0; i<180; i++) {
+        // Run 10 times the following
+        for(uint8_t j=0; j<10; j++){
+            d1=j;       // 0 - 1 ... 9
+            d2=j;
+            d3=j;
+            d4=j;
+            updateDisplay();
+            delay(1000);
         }
     }
 
@@ -207,9 +225,14 @@ void checkDateTimeChange() {
       // Minute has changed, update display and rest for 59sec before next time check
       minute = now.minute();
       lastTimeCheck += 59000;
-      if(minute%5 == 0 && !setMode) {
-          //Every 5 minutes
-          cathodePoisoningPrevention();
+      if(minute == 0 && !setMode) {
+          if(now.hour() != 3){
+            //Every hours except 3am
+            shortCathodePoisoningPrevention();
+          }else{
+            //At 3am
+            longCathodePoisoningPrevention();
+          }
       }
       generateDisplay(now);
 
