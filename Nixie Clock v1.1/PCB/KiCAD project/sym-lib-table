@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "BackBoard-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/BackBoard-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "NixieBoard-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/NixieBoard-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "WoodDrillStencil-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/WoodDrillStencil-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "ControllerBoardSMDPSU-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/ControllerBoardSMDPSU-eagle-import.kicad_sym")(options "")(descr ""))
+)

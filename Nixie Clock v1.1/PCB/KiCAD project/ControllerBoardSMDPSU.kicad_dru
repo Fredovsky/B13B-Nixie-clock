@@ -1,0 +1,8 @@
+(version 1)
+(rule "class 1:1"
+  (condition "A.NetClass == 'wide keepout' && B.NetClass == 'wide keepout'")
+  (constraint clearance (min 0.508mm)))
+
+(rule "class 2:2"
+  (condition "A.NetClass == '12V' && B.NetClass == '12V'")
+  (constraint clearance (min 0.508mm)))

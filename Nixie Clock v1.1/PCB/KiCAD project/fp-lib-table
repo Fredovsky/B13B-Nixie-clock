@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BackBoard")(type "KiCad")(uri "$(KIPRJMOD)/BackBoard.pretty")(options "")(descr ""))
+  (lib (name "NixieBoard")(type "KiCad")(uri "$(KIPRJMOD)/NixieBoard.pretty")(options "")(descr ""))
+  (lib (name "WoodDrillStencil")(type "KiCad")(uri "$(KIPRJMOD)/WoodDrillStencil.pretty")(options "")(descr ""))
+  (lib (name "ControllerBoardSMDPSU")(type "KiCad")(uri "$(KIPRJMOD)/ControllerBoardSMDPSU.pretty")(options "")(descr ""))
+)

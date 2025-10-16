@@ -1,0 +1,1694 @@
+(kicad_pcb
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
+		(grid_origin 96.0011 105.0036)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 0)
+			(scaleselection 1)
+			(outputdirectory "v1.1 Gerbers/")
+		)
+	)
+	(net 0 "")
+	(footprint "BackBoard:VENT"
+		(layer "F.Cu")
+		(uuid "003634c3-e813-47e2-9440-7acc04b2078a")
+		(at 126.5011 118.5036)
+		(property "Reference" "V11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "957b5860-1af9-4ed1-a944-7e4d1383d9fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "VENT"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56febe94-e3b4-45b1-8c9e-97c36aded699")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8fce462-04fa-4bf6-9c49-f110d6790603")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "540a6fa5-296a-4447-969d-18462d8daf98")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "P$1" thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "ef9d2a4f-e94f-4966-8229-124a23bcaaf6")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BackBoard:VENT"
+		(layer "F.Cu")
+		(uuid "073eee82-ab34-4ae0-91a0-82305a9185bf")
+		(at 198.5011 98.5036)
+		(property "Reference" "V8"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4e45bd21-10f7-4cb7-a35e-9428cd3e5874")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "VENT"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6642afa-b39b-4e70-8f69-ddb99a92ea19")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa8c9dcb-d48e-4b84-8b07-19085230f5fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efb90dc8-224f-4cee-8985-f6f6144ba78c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "P$1" thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "7b70e1ce-56e8-4a89-ad39-e7abf27d54d9")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BackBoard:VENT"
+		(layer "F.Cu")
+		(uuid "07aba8a3-fe83-4c25-a16c-cf873e77a698")
+		(at 106.5011 98.5036)
+		(property "Reference" "V3"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7e1747cc-2345-47db-a926-60d3b0789184")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "VENT"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5b565bf-df8a-4508-9cd5-7393edda0d0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "484019b7-7c1a-4c9a-ae29-56f964ffd881")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dab157c4-70ee-4ab4-a6dd-9e5e4f65395f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "P$1" thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "e3b01ebf-f31b-4a6d-b703-04c538a72124")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BackBoard:VENT"
+		(layer "F.Cu")
+		(uuid "13fa7e5e-0c67-4432-b02a-ac43f449c550")
+		(at 98.5011 98.5036)
+		(property "Reference" "V1"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2fb38715-9f92-4a8b-87c0-d60e8b1c50a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "VENT"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b7a6650-f022-425d-8668-f619242ec79a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0792de1-e2a0-4d56-b471-8993bb06ee06")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9490873-fa52-47d1-a9b4-12b4258b21b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "P$1" thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "d6c8087b-61a3-4d97-bcce-08fa894cfebb")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BackBoard:VENT"
+		(layer "F.Cu")
+		(uuid "24fb7ed7-53de-4f43-8a44-c3a70a122c9c")
+		(at 194.5011 118.5036)
+		(property "Reference" "V15"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "118e9ccc-a026-43db-a317-3cd6bc053b9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "VENT"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6cc14a9-1349-40eb-a89c-959359690ff7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c50c40b7-dd24-4909-a7f3-bb40a577b562")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6d971d9-e270-4427-b92a-81e13ab58547")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "P$1" thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "4e614445-e4f6-4121-b43b-20402b8ca496")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BackBoard:VENT"
+		(layer "F.Cu")
+		(uuid "2b8c3c29-38a8-472b-ab1b-145c922310e0")
+		(at 118.5011 118.5036)
+		(property "Reference" "V13"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c91ac5ff-6f1e-4c4f-971c-76c9457e33dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "VENT"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d651638b-26b3-4307-88f2-5fced66c4f2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5a9bc66-06a6-45ad-9b93-ed25dd2b8410")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fb84e9c-1bd7-4ba5-b084-e3fee5a32d94")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "P$1" thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "713adb34-9c49-4310-9fae-f2e9cd221c90")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BackBoard:VENT"
+		(layer "F.Cu")
+		(uuid "33cadc59-9a09-42e1-9ffa-884c33d0ec34")
+		(at 114.5011 98.5036)
+		(property "Reference" "V5"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8c17e56b-a66e-469d-9dc9-fef559c23192")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "VENT"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1dbb13bb-337f-4986-a62a-253bd176b15d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f428a1bb-1e5a-4973-9276-cf7e760e24f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "169be7c2-c420-4fb8-ba14-cfe0f7608894")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "P$1" thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "3236bc6a-4013-49e9-9072-af55d46b3575")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BackBoard:VENT"
+		(layer "F.Cu")
+		(uuid "3f8bd865-4a9d-453d-a799-fe910e8471d3")
+		(at 122.5011 114.5036)
+		(property "Reference" "V14"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8e8b6291-b0ea-40b7-a4fb-383df9d8c9b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "VENT"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ef9e857-4b3d-4289-9913-c333bf41a960")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a450db7-b90c-43c9-b8bf-d69d76e62671")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5608f13b-51b2-4374-b777-ded95c694589")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "P$1" thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "948fddd0-75e3-41c5-9a85-3b42f1ece78e")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BackBoard:VENT"
+		(layer "F.Cu")
+		(uuid "4746c657-8241-468a-9148-5e33436ba850")
+		(at 190.5011 98.5036)
+		(property "Reference" "V6"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3f38a8d0-32cc-4880-a995-83a146989585")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "VENT"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca568119-eda7-495b-b195-6f0abf40f67e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d431e6df-76af-4547-a910-9be1efd9939e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ed74b75-eee2-4bd4-8220-01903d000b21")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "P$1" thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "8a34b7e7-5363-4b39-a56e-b490563ba080")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BackBoard:dummyfp3"
+		(layer "F.Cu")
+		(uuid "526f6dc8-bd2b-4f85-83c7-8bf9e4b5ee28")
+		(at 156.7511 94.7536)
+		(property "Reference" "UNK_HOLE_3"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8951abad-1f6e-40a8-bfc6-67804f9343eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "651831ef-ca35-497e-ba5a-1ec02457e270")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9883d87-4744-4c63-8a36-70119f9155a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b2b936a-e092-49f7-a03f-4db224f10851")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6 6)
+			(drill 6)
+			(layers "*.Cu" "*.Mask")
+			(uuid "4b2e8100-da44-420f-83cb-b657988dafaf")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BackBoard:dummyfp0"
+		(layer "F.Cu")
+		(uuid "584d6ad1-111a-4b50-ae89-8c16f9547aa1")
+		(at 84.0011 105.0036)
+		(property "Reference" "UNK_HOLE_0"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6e5444e7-4d81-45bb-b377-b48b764103da")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a736ff96-973e-4132-8dd2-a80685353704")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b1dfcad-d7dd-4744-b322-59f6a2ca2c50")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5814193d-9799-4bd2-8ee2-432a90a398c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.3 3.3)
+			(drill 3.3)
+			(layers "*.Cu" "*.Mask")
+			(uuid "2ee2fb48-5e76-4e56-b230-630cb354890d")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BackBoard:VENT"
+		(layer "F.Cu")
+		(uuid "62251882-6726-48f6-8cb0-101e753e653a")
+		(at 202.5011 94.5036)
+		(property "Reference" "V9"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "de77c9c9-9543-47a9-8392-f1f0a3b6748a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "VENT"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34fb820d-1619-4108-a1d1-7bd8a562d16c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ca2c02d-8837-4cb0-ac1e-edeb8bf5616e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d05ccdac-bff9-49fa-8c63-c9c4a7e04674")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "P$1" thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "5c788c2f-613a-47ef-a319-b4d8ac3d9eb9")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BackBoard:dummyfp4"
+		(layer "F.Cu")
+		(uuid "72c1f5ff-e5d4-471a-a336-feb59d5011a4")
+		(at 172.7511 94.7536)
+		(property "Reference" "UNK_HOLE_4"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "32cd452e-14be-414d-8e0b-584f2f067756")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b7f97062-ab77-4330-a6c2-1fcab59f9b0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f09df13-8c43-4fcc-9bf9-4781793812c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33611d34-6430-4421-880c-0c88e1817e1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6 6)
+			(drill 6)
+			(layers "*.Cu" "*.Mask")
+			(uuid "fabb5c50-ec07-4200-b203-9d062e16bdc9")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BackBoard:VENT"
+		(layer "F.Cu")
+		(uuid "739e2d99-f190-4781-9875-66561fb37fcf")
+		(at 198.5011 114.5036)
+		(property "Reference" "V12"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "00a685e1-89ed-446a-ab24-9977e736bab7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "VENT"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e6c4eb5-0a22-4edd-9427-02f36a940711")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbdb34cb-7c68-48f6-8cf3-406601d39764")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0488cc46-9947-4912-835e-7e174e4f0fee")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "P$1" thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "b9010e8d-8be4-4e6e-917e-4befeb642f6a")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BackBoard:dummyfp1"
+		(layer "F.Cu")
+		(uuid "83cdac0b-023e-4b43-914b-f05f1226b104")
+		(at 213.0011 105.0036)
+		(property "Reference" "UNK_HOLE_1"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "182d4250-1c4c-4981-b622-9bf67352a8e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "3f165187-a99d-4994-ba85-587849a664ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "159e8913-473e-4a85-9ca1-5a8c6509d470")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7ee92b6-8253-4198-9fa3-ee9306c306c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.3 3.3)
+			(drill 3.3)
+			(layers "*.Cu" "*.Mask")
+			(uuid "daa4306e-2f8b-4d27-baec-e886c92f94f7")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BackBoard:VENT"
+		(layer "F.Cu")
+		(uuid "8d245936-13f0-4ad8-a49d-f288534ccd5f")
+		(at 206.5011 98.5036)
+		(property "Reference" "V10"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1644103d-ab0a-4e0c-9c89-6e2aa4adabe0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "VENT"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b6bc035-9edf-4cee-bd1c-934dd2d9c726")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e381fb4d-3ad8-46ad-8d0e-81bd80ad238f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92fb067f-85f9-4d68-b6ea-39d94e54dbb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "P$1" thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "3b583132-2628-4df0-b40c-dd1365b03585")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BackBoard:VENT"
+		(layer "F.Cu")
+		(uuid "9caba11e-3634-4803-9839-ed6a08c6c6de")
+		(at 202.5011 118.5036)
+		(property "Reference" "V16"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0762a48b-3bcc-4f6a-b6f9-23260233e214")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "VENT"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f05c76c-e412-425c-9989-3e5e1cdc3daa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1582eb0-f8ea-4422-beda-80847b5e4a6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a335d36-3600-4b93-90a6-c8616b7fb969")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "P$1" thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "2e31b2e4-f03b-4a02-bf9e-cb1a5ad5bc39")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BackBoard:VENT"
+		(layer "F.Cu")
+		(uuid "b47ec95f-6a11-49fa-8c30-2f2ad19cd623")
+		(at 194.5011 94.5036)
+		(property "Reference" "V7"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f9a5a360-d5d3-4de1-9332-6f050eec8bbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "VENT"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbbc05a0-7c14-4ddf-9cd0-916d368223c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05783cb7-0e63-4d0e-8023-acbc2a476af3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3bee42d-0853-4742-876e-860675989282")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "P$1" thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "6726c2db-d5ae-4869-9d2d-c629704afdbc")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BackBoard:VENT"
+		(layer "F.Cu")
+		(uuid "c7abbe1b-77dc-4e03-8398-f14f50d63a2d")
+		(at 110.5011 94.5036)
+		(property "Reference" "V4"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bbcb0430-3448-46b2-8d2b-c5e6e0b0ec36")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "VENT"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76f6b25a-f755-4524-941e-7171dc0fc5b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e59866fa-a108-40a4-9a98-d3d7ed3a8313")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe81fbde-64f4-4267-b157-20179167b321")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "P$1" thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "7791fce6-4ac2-4879-b3e8-2f3284bb8173")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BackBoard:VENT"
+		(layer "F.Cu")
+		(uuid "cf88c5c1-e8ba-4f01-b933-1e804a28c114")
+		(at 102.5011 94.5036)
+		(property "Reference" "V2"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ca6f6f18-99d9-40c4-bc4a-0cf66dd3103a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "VENT"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "698fda88-3f68-4d05-9c5f-bbbbcf8bebcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb7e0e9e-edf7-4d35-9282-06c0d51e1bc7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37033272-c92d-407c-b313-5c7a487d9c0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "P$1" thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "9eceed91-b856-4e99-b93e-e10dcd9d9f7e")
+		)
+		(embedded_fonts no)
+	)
+	(gr_line
+		(start 94.5011 116.2536)
+		(end 94.5011 118.3036)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "0b36f1fc-9f8a-4563-a42c-92aa764e9f8d")
+	)
+	(gr_line
+		(start 107.5011 111.0036)
+		(end 98.5011 111.0036)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "246d2462-4baa-4a39-9b93-5eb7d9746fac")
+	)
+	(gr_line
+		(start 98.5011 111.0036)
+		(end 98.5011 122.0036)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "606db8cf-e303-4a33-a4fd-64b0043a6dd2")
+	)
+	(gr_line
+		(start 98.5011 122.0036)
+		(end 107.5011 122.0036)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "6729b1c9-a200-432d-a91c-b554d342c24e")
+	)
+	(gr_arc
+		(start 95.5011 113.7536)
+		(mid 94.5011 116.167814)
+		(end 93.5011 113.7536)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "7b34f716-6e3b-41cc-9ff2-5194a0acb9f7")
+	)
+	(gr_circle
+		(center 94.5011 114.7536)
+		(end 94.6011 114.7536)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "a9d56d4a-8b37-438c-a35d-bf58413229fc")
+	)
+	(gr_circle
+		(center 94.5011 110.7536)
+		(end 95.7011 110.7536)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "d4ff240f-27f9-48c4-aaec-791c627ac1bc")
+	)
+	(gr_circle
+		(center 94.5011 119.5036)
+		(end 95.7011 119.5036)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "da033002-3665-4372-96f7-1db4db7f59e6")
+	)
+	(gr_line
+		(start 107.5011 122.0036)
+		(end 107.5011 111.0036)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "ef0a55ed-995e-4102-9a21-4526e90778dd")
+	)
+	(gr_line
+		(start 94.5011 114.7536)
+		(end 94.5011 111.9536)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "f1d4dd70-4b03-4efa-bec0-fafc614ddaeb")
+	)
+	(gr_arc
+		(start 97.5011 110.5036)
+		(mid 97.647547 110.150047)
+		(end 98.0011 110.0036)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "57f9e650-1b8c-4abf-9b94-ca22355ade76")
+	)
+	(gr_arc
+		(start 108.0011 110.0036)
+		(mid 108.354653 110.150047)
+		(end 108.5011 110.5036)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "73033d86-1415-4157-ac54-fd04896e6b94")
+	)
+	(gr_line
+		(start 97.5011 122.0036)
+		(end 96.0011 122.0036)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7a051c9c-581a-449e-90a6-43ea814e5d6a")
+	)
+	(gr_line
+		(start 97.5011 122.0036)
+		(end 97.5011 110.5036)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8502760a-33de-4818-9c58-20af1728ee81")
+	)
+	(gr_line
+		(start 96.0011 88.0036)
+		(end 201.0011 88.0036)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9ccabb77-00b9-4f38-b812-a93de82002a8")
+	)
+	(gr_arc
+		(start 201.0011 88.0036)
+		(mid 218.0011 105.0036)
+		(end 201.0011 122.0036)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c2213df4-1dcb-4e73-bb52-b471ac57ab92")
+	)
+	(gr_line
+		(start 98.0011 110.0036)
+		(end 108.0011 110.0036)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dc0b7b79-0392-4f5e-a175-152d6083ed82")
+	)
+	(gr_arc
+		(start 96.0011 122.0036)
+		(mid 79.0011 105.0036)
+		(end 96.0011 88.0036)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "de001e51-48d2-495b-bcf8-3173c6349002")
+	)
+	(gr_line
+		(start 201.0011 122.0036)
+		(end 108.5011 122.0036)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e242f093-724f-4237-aa1d-a3d036fb8c59")
+	)
+	(gr_line
+		(start 108.5011 110.5036)
+		(end 108.5011 122.0036)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e8ed5739-03d7-4cd7-a2f4-4b614f1702fb")
+	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 166.5011 118.5036 0)
+		(layer "F.SilkS")
+		(uuid "d0faaa98-8f2f-4502-affe-3308bfdb117e")
+		(effects
+			(font
+				(size 1.0795 1.0795)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(gr_text "M"
+		(at 180.0011 95.0036 -0)
+		(layer "B.SilkS")
+		(uuid "7e428a96-9a1f-4a0d-85ca-4a3d4c2e9a5a")
+		(effects
+			(font
+				(size 4.5 4.5)
+				(thickness 0.5)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "NIXIE CLOCK"
+		(at 172.25 116.25 -0)
+		(layer "B.SilkS")
+		(uuid "91552429-5fd6-40ab-b0af-28500043f7eb")
+		(effects
+			(font
+				(size 2.25 2.25)
+				(thickness 0.25)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "_"
+		(at 94.5011 118.5036 -0)
+		(layer "B.SilkS")
+		(uuid "a2fa174b-01b0-4af2-a962-733d6b881823")
+		(effects
+			(font
+				(size 1.7 1.7)
+				(thickness 0.3)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "Design by F. LIDOVE v1.1"
+		(at 168.25 119.25 -0)
+		(layer "B.SilkS")
+		(uuid "a80d3f90-a029-4ac7-be93-ea2d1201ad8b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.25)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "12V DC"
+		(at 103.0011 108.5036 -0)
+		(layer "B.SilkS")
+		(uuid "b6f8eafd-9723-4179-8e68-71603054571b")
+		(effects
+			(font
+				(size 1.8 1.8)
+				(thickness 0.2)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(gr_text "H"
+		(at 150.0011 95.0036 -0)
+		(layer "B.SilkS")
+		(uuid "c2eb5fc1-fa3b-4aaf-a964-922cf9f38fc7")
+		(effects
+			(font
+				(size 4.5 4.5)
+				(thickness 0.5)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "+"
+		(at 94.5011 111.6036 -0)
+		(layer "B.SilkS")
+		(uuid "d8e2c52e-fa36-4853-9f3d-db70d1b471e9")
+		(effects
+			(font
+				(size 1.7 1.7)
+				(thickness 0.3)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(gr_text "ADJUST"
+		(at 164.5 100.5 -0)
+		(layer "B.SilkS")
+		(uuid "ff0a4ea8-f308-44da-af8f-8d6366e4ef06")
+		(effects
+			(font
+				(size 1.8 1.8)
+				(thickness 0.2)
+			)
+			(justify top mirror)
+		)
+	)
+	(embedded_fonts no)
+)
